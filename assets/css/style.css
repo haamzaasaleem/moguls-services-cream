@@ -740,3 +740,18 @@ html.no-loader .loader { display: none; }
 /* variety pack page: video takes the 3D pack's place when the clip exists */
 .video-band.pack-video { padding: 0; }
 .pack-media:has([data-video]) .media-fallback { display: none; }
+
+/* THEME: CREAM PRIMARY. Cream leads (page, cards, cream logo on a navy header), navy text, gold accent. */
+:root { --white: #fffdf3; }
+.site-header { background: #0d1c42; border-bottom: 0; }
+.nav a { color: #fcf9ea; }
+.nav a:hover { border-color: #b8892d; }
+.header-cta { box-shadow: 3px 3px 0 #fcf9ea; }
+.menu-btn { color: #fcf9ea; border-color: #fcf9ea; }
+@media (max-width: 1060px) {
+  .nav { background: #0d1c42; border-bottom-color: #b8892d; }
+  .nav a { border-bottom-color: #2b3e72; }
+}
+.loader { background: #0d1c42; }
+.loader-bar { background: #2b3e72; }
+.cta-band { background: #f2eedd; border-top: 2px solid #0d1c42; border-bottom: 2px solid #0d1c42; }
